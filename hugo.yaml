@@ -1,0 +1,72 @@
+baseURL: https://onlinecv.bytewise.me/
+languageCode: en-us
+title: My Online CV
+
+module:
+  imports:
+  - path: github.com/hugo-toha/toha/v4
+  mounts:
+  - source: ./node_modules/flag-icon-css/flags
+    target: static/flags
+  - source: ./node_modules/@fontsource/mulish/files
+    target: static/files
+  - source: ./node_modules/katex/dist/fonts
+    target: static/fonts
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+enableEmoji: true
+
+
+# Site parameters
+params:
+  # GitHub repo URL of your site
+  gitRepo: https://github.com/bytewise-me-org/onlineCV
+  background: images/back1.jpg
+  logo:
+    main: images/pyrtr.png
+    inverted: images/pyrtr.png
+    favicon: images/pyrtr.png
+  features:
+    # Enable portfolio section
+    portfolio:
+      enable: true
+    # Enable blog posts
+    blog:
+      enable: false
+      showAuthor: false
+      showDate: false
+      showCategories: false
+      showTags: false
+    # Enable Table of contents in reading page
+    toc:
+      enable: false
+  
+  newsletter:
+    enable: false
+  # Configure footer
+  footer:
+    enable: true
+    disclaimer:
+      enable: false
+
+
