@@ -1,6 +1,8 @@
 baseURL: https://onlinecv.bytewise.me/
 languageCode: en-us
 title: My Online CV
+relativeURLs: true
+
 
 module:
   imports:
