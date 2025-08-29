@@ -17,7 +17,7 @@ accomplishments:
     name: Linux Foundation
     url: https://training.linuxfoundation.org/training/kubernetes-and-cloud-native-essentials-lfs250/
   courseOverview: This course is designed to provide you with an understanding of the Kubernetes ecosystem and the basics of cloud native applications. You will learn about the architecture of Kubernetes, its components, and how to deploy and manage applications on a Kubernetes cluster. The course also covers essential cloud native concepts such as containers, microservices, and service meshes.
-  certificateURL: "files/lfs250.pdf"
+  certificateURL: "certs/lfs250.pdf"
 
 - name: Implementing Cisco Application Centric Infrastructure (DCACI)
   timeline: "March 2022"
@@ -25,7 +25,7 @@ accomplishments:
     name: Cisco
     url: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/implementing-cisco-application-centric-infrastructure-dcaci.html
   courseOverview: This course gives you the knowledge and skills to implement and operate a Cisco Application Centric Infrastructure (Cisco ACI) solution. You will learn how to deploy, configure, and manage a Cisco ACI fabric, including the Cisco Application Policy Infrastructure Controller (APIC), leaf and spine switches, and endpoints. The course also covers advanced topics such as multi-site deployments, security, and integration with other data center technologies.
-  certificateURL: "files/dcaci.pdf"
+  certificateURL: "certs/dcaci.pdf"
 
 - name: Ultimate AWS Certified Cloud Practicioner - 2022
   timeline: "February 2022"
@@ -33,7 +33,7 @@ accomplishments:
     name: Udemy
     url: https://www.udemy.com/course/aws-certified-cloud-practitioner-new/
   courseOverview: This course is designed to help you prepare for the AWS Certified Cloud Practitioner exam. You will learn about the core AWS services, their use cases, and how to architect and deploy applications on the AWS platform. The course also covers essential cloud concepts such as security, compliance, and billing.
-  certificateURL: "files/uccp.pdf"
+  certificateURL: "certs/uccp.pdf"
 
 
 - name: Terraform for Beginners
@@ -42,7 +42,7 @@ accomplishments:
     name: KodeKloud
     url: https://kodekloud.com/courses/terraform-for-beginners/
   courseOverview: This course is designed to provide you with a solid understanding of Terraform and how to use it to manage infrastructure as code. You will learn about the core concepts of Terraform, including providers, resources, and modules, and how to create and manage infrastructure on popular cloud platforms such as AWS, Azure, and Google Cloud.
-  certificateURL: "files/kk_terra.pdf"
+  certificateURL: "certs/kk_terra.pdf"
 
 - name: Ansible for the Absolute Beginners
   timeline: "November 2021"
@@ -50,7 +50,7 @@ accomplishments:
     name: KodeKloud
     url: https://kodekloud.com/courses/ansible-for-the-absolute-beginners-couse/
   #courseOverview: 
-  certificateURL: "files/kk_ans.pdf"
+  certificateURL: "certs/kk_ans.pdf"
 
 - name: Docker for the Absolute Beginner
   timeline: "November 2021"
@@ -58,7 +58,7 @@ accomplishments:
     name: KodeKloud
     url: https://kodekloud.com/courses/docker-for-the-absolute-beginner/
   #courseOverview: 
-  certificateURL: "files/kk_dock.pdf"
+  certificateURL: "certs/kk_dock.pdf"
 
 - name: Shell Scripts for Beginners
   timeline: "November 2021"
@@ -66,7 +66,7 @@ accomplishments:
     name: KodeKloud
     url: https://kodekloud.com/courses/shell-scripts-for-beginners/
   #courseOverview: 
-  certificateURL: "files/kk_shell.pdf"
+  certificateURL: "certs/kk_shell.pdf"
 
 - name: GIT for Beginners
   timeline: "November 2021"
@@ -74,7 +74,7 @@ accomplishments:
     name: KodeKloud
     url: https://kodekloud.com/courses/git-for-beginners/
   #courseOverview: 
-  certificateURL: "files/kk_git.pdf"
+  certificateURL: "certs/kk_git.pdf"
 
 - name: Devops Pre-Requisite
   timeline: "October 2021"
@@ -82,7 +82,7 @@ accomplishments:
     name: KodeKloud
     url: https://kodekloud.com/courses/devops-pre-requisite-course/
   #courseOverview: Online, Self-Paced
-  certificateURL: "files/kk_ops.pdf"
+  certificateURL: "certs/kk_ops.pdf"
 
 - name: Kubernetes for the Absolute Beginners – Hands-on
   timeline: "June 2021"
@@ -90,7 +90,7 @@ accomplishments:
     name: Udemy - KodeKloud
     url: https://www.udemy.com/course/learn-kubernetes/
   #courseOverview: Online, Self-Paced
-  certificateURL: "files/kube.pdf"
+  certificateURL: "certs/kube.pdf"
 
 - name: Developing Applications and Automating Workflows using Cisco Platforms (DEVASC)
   timeline: "July 2020"
@@ -123,7 +123,7 @@ accomplishments:
     name: Cisco
     url: 
   #courseOverview: This course provides you with the knowledge and skills to deploy and use Cisco Prime Performance Manager.
-  certificateURL: "files/cpperf.pdf"
+  certificateURL: "certs/cpperf.pdf"
 
 - name: Cisco Network Service Orchestrator (NSO) Essentials for Programmers and Network Architects (NSO201)
   timeline: "February 2020"
@@ -131,7 +131,7 @@ accomplishments:
     name: Cisco
     url: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/nso-essentials-for-programmers-and-network-architects-nso201.html
   #courseOverview: This course provides an overview of NSO as a network automation solution, as well as introductions to **NETCONF**, **YANG**, and **XPath**. You will learn about managing devices and creating device templates, service management and service package creation, network element drivers, interfacing with other systems using APIs, configuring and troubleshooting system settings, managing alarms and reporting, configuring NSO for scalability and performance, and capabilities that can be added to Cisco NSO.
-  certificateURL: "files/nso201.pdf"
+  certificateURL: "certs/nso201.pdf"
 
 - name: Programming for Network Engineers (PRNE)
   timeline: "May 2019"
@@ -139,5 +139,5 @@ accomplishments:
     name: Cisco
     url: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/programming-for-network-engineers-prne.html
   courseOverview: This course is designed to equip you with fundamental skills in **Python** programming. Through a combination of lectures and lab experience in simulated network environments, you will learn to use Python basics to create useful and practical scripts with **Netmiko** to retrieve data and configure network devices. Upon completion of this course, you should have a basic understanding of Python, including the knowledge to create, apply, and troubleshoot simple network automation scripts.
-  certificateURL: "files/prne.pdf"
+  certificateURL: "certs/prne.pdf"
 
