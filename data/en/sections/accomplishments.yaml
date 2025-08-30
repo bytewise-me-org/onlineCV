@@ -11,12 +11,19 @@ section:
 
 # Your accomplishments
 accomplishments:
+- name: Introduction to Cilium (LFS146)
+  timeline: "June 2024"
+  organization:
+    name: Linux Foundation
+    url: https://training.linuxfoundation.org/training/introduction-to-cilium-lfs146/
+  courseOverview: This course provides an introduction to **Cilium**, a cloud-native networking and security solution built on **eBPF**. You will learn about the core concepts of Cilium, including its architecture, features, and use cases, and how to deploy and manage Cilium in a Kubernetes environment.
+  certificateURL: "certs/lfs146.pdf"
 - name: Kubernetes and Cloud Native Essentials (LFS250)
   timeline: "August 2023"
   organization:
     name: Linux Foundation
     url: https://training.linuxfoundation.org/training/kubernetes-and-cloud-native-essentials-lfs250/
-  courseOverview: This course is designed to provide you with an understanding of the Kubernetes ecosystem and the basics of cloud native applications. You will learn about the architecture of Kubernetes, its components, and how to deploy and manage applications on a Kubernetes cluster. The course also covers essential cloud native concepts such as containers, microservices, and service meshes.
+  courseOverview: This course provides an overview of **cloud native technologies** and how container orchestration systems like **Kubernetes** can help to implement and maintain them.
   certificateURL: "certs/lfs250.pdf"
 
 - name: Implementing Cisco Application Centric Infrastructure (DCACI)
@@ -24,7 +31,9 @@ accomplishments:
   organization:
     name: Cisco
     url: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/implementing-cisco-application-centric-infrastructure-dcaci.html
-  courseOverview: This course gives you the knowledge and skills to implement and operate a Cisco Application Centric Infrastructure (Cisco ACI) solution. You will learn how to deploy, configure, and manage a Cisco ACI fabric, including the Cisco Application Policy Infrastructure Controller (APIC), leaf and spine switches, and endpoints. The course also covers advanced topics such as multi-site deployments, security, and integration with other data center technologies.
+  courseOverview: The Implementing Cisco Application Centric Infrastructure (DCACI) training introduces you to the implementation and management of the Cisco Nexus 9000 Series Switches in Cisco Application Centric Infrastructure (ACI) mode. The intensive training covers the key components and procedures you need to know to understand, configure, and manage Cisco Nexus 9000 Series Switches in ACI mode, how to connect the Cisco ACI fabric to external networks and services, and fundamentals of Virtual Machine Manager (VMM) integration.
+
+
   certificateURL: "certs/dcaci.pdf"
 
 - name: Ultimate AWS Certified Cloud Practicioner - 2022
@@ -49,7 +58,7 @@ accomplishments:
   organization:
     name: KodeKloud
     url: https://kodekloud.com/courses/ansible-for-the-absolute-beginners-couse/
-  #courseOverview: 
+  courseOverview: This course is designed to provide you with a solid understanding of Ansible and how to use it to automate IT tasks. You will learn about the core concepts of Ansible, including playbooks, modules, and inventory, and how to use Ansible to manage and configure systems, deploy applications, and orchestrate complex workflows.
   certificateURL: "certs/kk_ans.pdf"
 
 - name: Docker for the Absolute Beginner
@@ -57,7 +66,7 @@ accomplishments:
   organization:
     name: KodeKloud
     url: https://kodekloud.com/courses/docker-for-the-absolute-beginner/
-  #courseOverview: 
+  courseOverview: This course is designed to provide you with a solid understanding of Docker and how to use it to containerize applications. You will learn about the core concepts of Docker, including images, containers, and volumes, and how to use Docker to build, ship, and run applications in a containerized environment.
   certificateURL: "certs/kk_dock.pdf"
 
 - name: Shell Scripts for Beginners
@@ -65,7 +74,7 @@ accomplishments:
   organization:
     name: KodeKloud
     url: https://kodekloud.com/courses/shell-scripts-for-beginners/
-  #courseOverview: 
+  courseOverview: This course is designed to provide you with a solid understanding of shell scripting and how to use it to automate tasks in a Linux environment. You will learn about the core concepts of shell scripting, including variables, loops, and functions, and how to create and run shell scripts to perform common administrative tasks.  
   certificateURL: "certs/kk_shell.pdf"
 
 - name: GIT for Beginners
@@ -73,7 +82,7 @@ accomplishments:
   organization:
     name: KodeKloud
     url: https://kodekloud.com/courses/git-for-beginners/
-  #courseOverview: 
+  courseOverview: This course is designed to provide you with a solid understanding of Git and how to use it for version control. You will learn about the core concepts of Git, including repositories, branches, and commits, and how to use Git to manage and track changes to your codebase. The course also covers essential Git workflows such as branching, merging, and resolving conflicts.
   certificateURL: "certs/kk_git.pdf"
 
 - name: Devops Pre-Requisite
@@ -81,7 +90,7 @@ accomplishments:
   organization:
     name: KodeKloud
     url: https://kodekloud.com/courses/devops-pre-requisite-course/
-  #courseOverview: Online, Self-Paced
+  courseOverview: This course is designed to provide you with a solid understanding of the foundational concepts and tools used in DevOps. You will learn about the core principles of DevOps, including continuous integration, continuous delivery, and infrastructure as code, and how to use popular DevOps tools such as Git, Docker, and Jenkins to implement these principles in your organization.
   certificateURL: "certs/kk_ops.pdf"
 
 - name: Kubernetes for the Absolute Beginners – Hands-on
@@ -89,7 +98,7 @@ accomplishments:
   organization:
     name: Udemy - KodeKloud
     url: https://www.udemy.com/course/learn-kubernetes/
-  #courseOverview: Online, Self-Paced
+  courseOverview: This course is designed to provide you with a solid understanding of Kubernetes and how to use it to manage containerized applications. You will learn about the core concepts of Kubernetes, including pods, services, and deployments, and how to use Kubernetes to deploy, scale, and manage applications in a containerized environment.
   certificateURL: "certs/kube.pdf"
 
 - name: Developing Applications and Automating Workflows using Cisco Platforms (DEVASC)
@@ -97,7 +106,7 @@ accomplishments:
   organization:
     name: Cisco
     url: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/developing-applications-and-automating-workflows-using-cisco-core-platforms-devasc.html
-  #courseOverview: The holder of this credential has a strong foundation in basic network applications using Cisco platforms as a base, and implementing automation workflows across network, security, collaboration, and computing infrastructure. The holder is able to use Cisco Application Programming Interfaces (APIs) and modern development tools.
+  courseOverview: The holder of this credential has a strong foundation in basic network applications using Cisco platforms as a base, and implementing automation workflows across network, security, collaboration, and computing infrastructure. The holder is able to use Cisco Application Programming Interfaces (APIs) and modern development tools.
   certificateURL: "https://www.credly.com/badges/9df626ba-ddb6-4065-9b85-fd88e0ffe132"
 
 
@@ -106,7 +115,7 @@ accomplishments:
   organization:
     name: Cisco
     url: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/implementing-automation-for-cisco-service-provider-solutions-spaui.html
-  #courseOverview: This course covers **YANG** data models and validation tools, **RESTCONF** and **NETCONF** management protocols, model-driven telemetry with **gRPC** and **gNMI**, traffic automation with XR Transport Control (XTC), Secure Shell (SSH)-based automation tools like **NetMiko** and **Ansible**, orchestration provided by **NSO**, **NFV** lifecycle management with **ESC**, and network operations automation with **WAE**.
+  courseOverview: This course covers **YANG** data models and validation tools, **RESTCONF** and **NETCONF** management protocols, model-driven telemetry with **gRPC** and **gNMI**, traffic automation with XR Transport Control (XTC), Secure Shell (SSH)-based automation tools like **NetMiko** and **Ansible**, orchestration provided by **NSO**, **NFV** lifecycle management with **ESC**, and network operations automation with **WAE**.
   certificateURL: "https://www.credly.com/badges/57dd23e7-7bac-492c-b519-6781e9b55e40"
 
 - name: Introducing Automation for Cisco Solutions (CSAU)
@@ -114,7 +123,7 @@ accomplishments:
   organization:
     name: Cisco
     url: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/introducing-automation-for-cisco-solutions-csau.html
-  #courseOverview: This course gives you a broad overview of network automation skills. Through a combination of lecture and hands-on labs, you will learn the fundamentals of automation such as working on **model-driven programmability** solutions with **RESTCONF** and **NETCONF** protocols.
+  courseOverview: This course gives you a broad overview of network automation skills. Through a combination of lecture and hands-on labs, you will learn the fundamentals of automation such as working on **model-driven programmability** solutions with **RESTCONF** and **NETCONF** protocols.
   certificateURL: "https://www.credly.com/badges/a1d6bc23-e5a5-489d-9d6e-4b09d2de0cc6"
 
 - name: Cisco Prime Performance Manager (CPPERF)
@@ -122,7 +131,7 @@ accomplishments:
   organization:
     name: Cisco
     url: 
-  #courseOverview: This course provides you with the knowledge and skills to deploy and use Cisco Prime Performance Manager.
+  courseOverview: This course provides you with the knowledge and skills to deploy and use Cisco Prime Performance Manager.
   certificateURL: "certs/cpperf.pdf"
 
 - name: Cisco Network Service Orchestrator (NSO) Essentials for Programmers and Network Architects (NSO201)
@@ -130,7 +139,7 @@ accomplishments:
   organization:
     name: Cisco
     url: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/nso-essentials-for-programmers-and-network-architects-nso201.html
-  #courseOverview: This course provides an overview of NSO as a network automation solution, as well as introductions to **NETCONF**, **YANG**, and **XPath**. You will learn about managing devices and creating device templates, service management and service package creation, network element drivers, interfacing with other systems using APIs, configuring and troubleshooting system settings, managing alarms and reporting, configuring NSO for scalability and performance, and capabilities that can be added to Cisco NSO.
+  courseOverview: This course provides an overview of NSO as a network automation solution, as well as introductions to **NETCONF**, **YANG**, and **XPath**. You will learn about managing devices and creating device templates, service management and service package creation, network element drivers, interfacing with other systems using APIs, configuring and troubleshooting system settings, managing alarms and reporting, configuring NSO for scalability and performance, and capabilities that can be added to Cisco NSO.
   certificateURL: "certs/nso201.pdf"
 
 - name: Programming for Network Engineers (PRNE)
